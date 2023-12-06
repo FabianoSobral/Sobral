@@ -1,0 +1,76 @@
+
+@font-face {
+    font-family: face;
+    src: url(MELADU\ ROSE.otf);
+}
+
+
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+    background: url(https://www.showmetech.com.br/wp-content/uploads//2022/04/papel-de-parede-animado-no-pc-showmetech-2-2.png) center;
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    font-family: serif;
+    display: grid;
+    place-items: center;
+    
+}
+
+h1{
+    color: black;
+    position: absolute;
+    top: 2%;
+    background-color: burlywood;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.calculadora {
+    background: black;
+    border-radius: 4%;
+    padding: 2%;
+    color: red;
+    
+    
+
+}
+
+h2 {
+  font-size: 1.5rem;  
+}
+
+#Resultado {
+ background: #ffff;
+ color:black ;  
+ font-size: 1.5rem;
+ text-align: right;
+ padding: 2%;
+ overflow: hidden;
+ width: 14rem;
+ height: 2rem;
+}
+
+button {
+    width: 3rem;
+    height: 3rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: .2rem;
+   background-color:blue;
+   color: aqua;
+   border: none;
+   transition: all .5s;
+}
+
+button:hover {
+    border: 2px solid red;
+    background: rgba(255, 0, 0, 0.733);
+    transform: scale(150%);
+}
